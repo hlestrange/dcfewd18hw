@@ -2,6 +2,7 @@ body {
   background: #fcf7e4;
   color: #333333;
   font-family: Open Sans, Helvetica Neue, sans-serif;
+  margin: 0;
 }
 
 img {
@@ -11,5 +12,29 @@ img {
 
  h1 {
    font-family: Bitter, Rockwell, serif;
-
+   color: #a64545;
+   font-size: 5em;
+   text-transform: uppercase;
+   letter-spacing: 10px;
  }
+
+.nav {
+  font-family: Bitter, Rockwell, serif;
+  color: #a64545;
+  font-size: 1.5em;
+  list-style: none;
+  padding: 0;
+}
+
+header {
+  background: #591515;
+}
+
+.nav-container {
+  padding: 10 100 10 100;
+}
+
+section {
+  padding: 100px;
+  margin: 0;
+}
