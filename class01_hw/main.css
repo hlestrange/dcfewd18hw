@@ -9,35 +9,31 @@ body {
 
 a {
   text-decoration: none;
-  color: #461010;
 }
 
 a:hover {
-  color: #a64545;
+  color: #320a0a;
 }
 
-/*a:active {
+a:active {
   color: #320a0a;
-}*/
+}
 
 /*Header==========================================*/
 
 .nav {
   font-family: Bitter, Rockwell, serif;
-  color: #a64545;
-  font-size: 1.5em;
+  color: #461010;
+  font-size: 1.25em;
   list-style: none;
   padding: 0;
-}
-
-header {
-  background: #661b1b;
-  text-align: center;
 }
 
 .nav-container {
   padding: 10 0 10 0;
   margin-bottom: 100px;
+  background: #661b1b;
+  text-align: center;
 }
 
 .nav-container li {
@@ -93,4 +89,11 @@ h2 {
   width: 65%;
   float: left;
   margin-left: 1.5em;
+}
+
+.icon-about {
+  font-size: 2em;
+  padding-right: 20px;
+  text-align: center;
+  color: #a64545;
 }
