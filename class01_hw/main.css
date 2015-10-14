@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.nav:hover {
   color: #320a0a;
 }
 
@@ -23,6 +23,7 @@ a:active {
 
 .nav {
   font-family: Bitter, Rockwell, serif;
+  font-weight: bold;
   color: #461010;
   font-size: 1.25em;
   list-style: none;
@@ -96,4 +97,8 @@ h2 {
   padding-right: 20px;
   text-align: center;
   color: #a64545;
+}
+
+.icon-about:hover {
+  color: #cd5f5f;
 }
