@@ -19,28 +19,27 @@ a:active {
   color: #320a0a;
 }
 
-/*Header==========================================*/
-
 .nav {
   font-family: Bitter, Rockwell, serif;
   font-weight: bold;
   color: #461010;
   font-size: 1.25em;
   list-style: none;
-  padding: 0;
+  padding-right: 20px;
+  text-transform: uppercase;
+  display: inline;
 }
 
 .nav-container {
   padding: 10 0 10 0;
-  margin-bottom: 100px;
-  background: #661b1b;
+  margin-bottom: 35px;
   text-align: center;
 }
 
-.nav-container li {
-  display: inline;
-  padding: 0 20 0 20;
-  text-transform: uppercase;
+header {
+  background: #661b1b;
+  overflow: auto;
+  margin-bottom: 100px;
 }
 
 h1 {
