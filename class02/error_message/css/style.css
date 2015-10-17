@@ -1,0 +1,18 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 30px;
+  line-height: 1.4;
+}
+
+.notification {
+  background: #eee;
+  border: solid 1px #dedede;
+  padding: 10px;
+}
+
+code {
+  background: #e4e1e1;
+  border-radius: 4px;
+  padding: 2px 4px;
+  border: solid 1px #c6c6c6;
+}

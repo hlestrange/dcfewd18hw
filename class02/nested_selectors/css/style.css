@@ -1,0 +1,25 @@
+body {
+  font-family: Georgia;
+  line-height: 1.4;
+  margin: 3em;
+  color: #888;
+}
+
+h1, em {
+  color: black;
+}
+
+blockquote em {
+  font-style: normal;
+}
+
+blockquote {
+  border-left: 6px solid #EEE;
+  padding-left: 10px;
+  margin: 0;
+  font-style: italic;
+}
+
+p {
+  padding-bottom: 9px;
+}
