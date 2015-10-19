@@ -84,20 +84,27 @@ h3 {
 }
 
 blockquote {
-  text-align: center;
   font-style: italic;
   font-weight: 100;
-  font-size: 22px;
+  font-size: 26px;
+  text-align: center;
 }
 
 .quote-author{
   font-size: 26px;
+  text-align: center;
 }
 
 .testimonial {
   background-color: #033048;
   overflow: auto;
   height: 400px;
+  padding: 100px;
+}
+
+.content-block-small {
+  width: 650px;
+  margin: 0 auto;
 }
 
 .signup {
