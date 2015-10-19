@@ -26,12 +26,14 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
-  /*background: url(../images/header_bg.jpg) no-repeat;
-  background-size: cover;*/
+}
+
+h1, h2, blockquote, .quote-author {
+  color: white;
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 44px;
   font-weight: 800;
 }
 
@@ -44,19 +46,31 @@ header {
   padding: 0 100px;
 }
 
-h2 {
-  font-size: 24px;
+.align-center {
+  text-align: center;
+}
+
+.btn-primary{
+  padding: 10px 30px;
+  background: #f9e42e;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #121212;
   font-weight: 600;
+}
+
+.tagline {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin: 100px 0 70px 0;
 }
 
 h3 {
   font-size: 20px;
   font-weight: 600;
   color: #033048;
-}
-
-.dark-background {
-  color: white;
 }
 
 .benefits {
@@ -73,7 +87,11 @@ blockquote {
   text-align: center;
   font-style: italic;
   font-weight: 100;
-  color: white;
+  font-size: 22px;
+}
+
+.quote-author{
+  font-size: 26px;
 }
 
 .testimonial {
