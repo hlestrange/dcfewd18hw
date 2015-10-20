@@ -108,7 +108,7 @@ blockquote {
 }
 
 .testimonial {
-  background-color: #033048;
+  background: url(../images/testimonial_bg.jpg);
   /*overflow: auto;*/
   height: 100%;
   padding: 100px;
