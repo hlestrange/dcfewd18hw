@@ -50,14 +50,22 @@ header {
   text-align: center;
 }
 
-.btn-primary{
+.btn {
   padding: 10px 30px;
-  background: #f9e42e;
   text-align: center;
   border-radius: 5px;
   text-decoration: none;
-  color: #121212;
   font-weight: 600;
+}
+
+.btn-primary {
+  background: #f9e42e;
+  color: #121212;
+}
+
+.btn-secondary {
+  background: #033048;
+  color: white;
 }
 
 .tagline {
@@ -114,7 +122,9 @@ blockquote {
 .signup {
   background: #f9e42e;
   height: 120px;
-  overflow: auto;
+  /*overflow: auto;*/
+  text-align: center;
+  padding-top: 50px;
 }
 
 footer {
