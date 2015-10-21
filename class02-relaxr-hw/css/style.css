@@ -41,7 +41,7 @@ header {
   background: url(../images/header_bg.jpg) no-repeat;
   background-size: cover;
   overflow: auto;
-  width: 100%;
+  /*width: 100%;*/
   height: 850px;
   padding: 0 100px;
 }
@@ -87,7 +87,7 @@ h3 {
   overflow: auto;
   font-size: 24px;
   font-weight: 100;
-  height: 100%;
+  /*height: 100%;*/
   padding: 100px;
 }
 
@@ -109,8 +109,6 @@ blockquote {
 
 .testimonial {
   background: url(../images/testimonial_bg.jpg);
-  /*overflow: auto;*/
-  height: 100%;
   padding: 100px;
 }
 
@@ -121,10 +119,8 @@ blockquote {
 
 .signup {
   background: #f9e42e;
-  height: 120px;
-  /*overflow: auto;*/
   text-align: center;
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 footer {
