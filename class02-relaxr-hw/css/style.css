@@ -11,14 +11,14 @@ html {
 
 /* Clear fix hack */
 
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
+/*.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}*/
 
 
 /*General Styles*/
@@ -28,8 +28,12 @@ body {
   line-height: 1.4;
 }
 
-h1, h2, blockquote, .quote-author {
+.primary-color {
   color: white;
+}
+
+.accent-color {
+  color: #f9e42e;
 }
 
 .logo {
@@ -40,22 +44,28 @@ h1, h2, blockquote, .quote-author {
 header {
   background: url(../images/header_bg.jpg) no-repeat;
   background-size: cover;
-  overflow: auto;
-  /*width: 100%;*/
+  overflow: hidden;
   height: 850px;
-  padding: 0 100px;
+  padding: 0 7%;
 }
 
-.align-center {
+.header-tagline {
+  font-size: 40px;
+  font-weight: 600;
   text-align: center;
+  margin: 100px 0 70px 0;
 }
 
 .btn {
+  width: 175px;
   padding: 10px 30px;
   text-align: center;
   border-radius: 5px;
   text-decoration: none;
   font-weight: 600;
+  display: block;
+  margin: 0 auto;
+  position: relative;
 }
 
 .btn-primary {
@@ -68,63 +78,58 @@ header {
   color: white;
 }
 
-.tagline {
-  font-size: 40px;
-  font-weight: 600;
-  text-align: center;
-  margin: 100px 0 70px 0;
+.benefits-section {
+  background: #f0efef;
+  color: #606161;
+  font-size: 24px;
+  font-weight: 100;
+  padding: 5% 40% 5% 7%;
 }
 
-h3 {
+.benefits-header {
   font-size: 34px;
   font-weight: 600;
   color: #033048;
 }
 
-.benefits {
-  background: #f0efef;
-  color: #606161;
-  overflow: auto;
-  font-size: 24px;
-  font-weight: 100;
-  /*height: 100%;*/
-  padding: 100px;
+.quote-section {
+  background: url(../images/testimonial_bg.jpg);
+  padding: 6% 15%;
 }
 
-.align-left {
-  width: 60%;
-}
-
-blockquote {
+.quote {
   font-style: italic;
   font-weight: 100;
   font-size: 26px;
   text-align: center;
 }
 
-.quote-author{
+.quote-author {
   font-size: 26px;
   text-align: center;
 }
 
-.testimonial {
-  background: url(../images/testimonial_bg.jpg);
-  padding: 100px;
-}
-
-.content-block-small {
-  width: 70%;
-  margin: 0 auto;
-}
-
-.signup {
+.signup-section {
   background: #f9e42e;
-  text-align: center;
   padding: 50px 0;
 }
 
 footer {
   background: #121212;
-  height: 400px;
+  height: 310px;
   overflow: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.icon-footer {
+  padding: 10px;
+}
+
+.tiny-text {
+  font-size: 12px;
+}
+
+.footer-icons {
+  margin-bottom: 40px;
 }
