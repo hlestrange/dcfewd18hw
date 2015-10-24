@@ -107,6 +107,9 @@ header {
 .quote-author {
   font-size: 26px;
   text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  display: block;
 }
 
 .signup-section {
