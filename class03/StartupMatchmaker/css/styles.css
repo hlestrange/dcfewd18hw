@@ -1,0 +1,77 @@
+body {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+.logo {
+  font-size: 1.75em;
+  width: 400px;
+  color: white;
+  color: yellow;
+  font-family: Merriweather, Georgia, serif;
+  font-weight: 600;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.nav {
+  display: block;
+  clear: both;
+  position: relative;
+  background: black;
+  border-bottom: 4px solid yellow;
+  padding: 23px 0 20px 20px;
+  overflow: hidden;
+}
+
+.nav-menu {
+  float: right;
+  margin-top: 5px;
+}
+
+.nav-menu > li {
+  display: inline-block;
+}
+
+.nav-menu > li > a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 1.25em;
+}
+
+.nav-menu-featured {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-menu > li > a:hover {
+  color: yellow;
+}
+
+.tagline {
+  background-color: #cdcdcd;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  width: 100%;
+  background: url(../images/coworking.jpg) no-repeat top center;
+  clear: both;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+.hero-tile {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 400px;
+  float: right;
+  background: rgba(255, 255, 255, 0.77);
+  padding: 30px;
+  margin: 30px;
+}
