@@ -1,11 +1,17 @@
-/* Box Model Hack */
+/*Base Styles*/
+
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  background-color: #f0efef;
+  color: #121212;
+}
+
 * {
   -moz-box-sizing: border-box; /* Firexfox */
   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
   box-sizing: border-box; /* IE */
   }
 
-/* Clear fix hack */
 .clearfix:after {
   content: ".";
   display: block;
@@ -16,28 +22,60 @@
 }
 
 
-body {
-  font-family: "Open Sans", Helvetica, sans-serif;
-  background-color: #f0efef;
+/*Layout*/
+
+.column-left{
+  float: left;
+  width: 700px;
+  margin: 6% 2% 6% 6%;
 }
 
-.logo {
-  font-size: 42px;
-  font-weight: 800;
-  color: white;
+.sidebar{
+  float: left;
+  width: 240px;
+  margin: 6% 0;
 }
+
+.button-strip {
+  background: orange;
+  float: left;
+  width: 100%;
+}
+
+footer {
+  background: red;
+  float: left;
+  width: 100%;
+}
+
+
+/*Modules*/
 
 header {
   background: #033048;
+  overflow: hidden;
+  padding: 25px 6% 25px 6%;
 }
 
-.column-left{
-  background: blue;
+.header-logo {
+  font-size: 32px;
+  font-weight: 800;
+  color: white;
   float: left;
-  width: 60%
 }
 
-.column-right{
-  float: left;
-  width: 40%;
+.header-nav > li {
+  float: right;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.header-nav > li > a {
+  color: #f9e42e;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.header-nav > li > a:hover {
+  color: white;
 }
