@@ -24,16 +24,22 @@ body {
 
 /*Layout*/
 
-.column-left{
+.wrapper {
+  margin: 0 auto;
+  width: 960px;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.column-left {
   float: left;
   width: 700px;
-  margin: 6% 2% 6% 6%;
+  margin-right: 20px;
 }
 
 .sidebar{
   float: left;
   width: 240px;
-  margin: 6% 0;
 }
 
 .button-strip {
@@ -49,12 +55,13 @@ footer {
 }
 
 
-/*Modules*/
+/*Header*/
 
 header {
   background: #033048;
   overflow: hidden;
   padding: 25px 6% 25px 6%;
+  margin-bottom: 60px;
 }
 
 .header-logo {
@@ -64,8 +71,11 @@ header {
   float: left;
 }
 
-.header-nav > li {
+.header-nav {
   float: right;
+}
+
+.header-nav > li {
   display: inline-block;
   padding: 10px 20px;
 }
@@ -78,4 +88,50 @@ header {
 
 .header-nav > li > a:hover {
   color: white;
+  padding: 6px 0;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+
+/*Story Section*/
+
+.story {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-bottom: 1px solid #606161;
+}
+
+.story-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 42px;
+  margin-bottom: 20px;
+}
+
+.story-image {
+  margin-bottom: 25px;
+}
+
+.story-text {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 25px;
+  color: #606161;
+  margin-bottom: 30px;
+}
+
+.story-link {
+  font-weight: 600;
+  float: right;
+  color: #033048;
+}
+
+.story-link:hover {
+  color: #306e90;
+}
+
+.link-arrow {
+  margin-left: 5px;
+  font-size: 18px;
 }
