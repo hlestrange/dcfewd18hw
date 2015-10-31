@@ -142,6 +142,13 @@ header {
   font-size: 18px;
 }
 
+.firstletter {
+  float: left;
+  font-size: 84px;
+  font-weight: 600;
+  margin: 24px 10px 9px 0;
+}
+
 /*Sidebar Section*/
 
 .sidebar-title {
