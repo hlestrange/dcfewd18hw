@@ -128,12 +128,12 @@ header {
   margin-bottom: 30px;
 }
 
-.story-link {
+.show-more {
   font-weight: 600;
   float: right;
 }
 
-.story-link:hover {
+.show-more:hover {
   color: #306e90;
 }
 
