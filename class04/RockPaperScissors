@@ -1,0 +1,20 @@
+
+ROCK, PAPER, SCISSORS
+
+available_moves = “rock”, “paper”, “scissors”
+
+user_move = get move from user
+computer_move = generate random move
+
+if user_move is not in available moves
+  then print “Hey! That’s not valid!”
+else is user_move == computer_move
+  then print “It’s a tie!”
+else if user_move == “rock” and computer_move == “scissor”
+  then print “You win!”
+else if user_move == “scissor” and computer_move == “paper”
+  then print “You win!”
+else if user_move == “paper” and computer_move == “rock”
+  then print “You win!”
+else
+  then print “You lose!”
