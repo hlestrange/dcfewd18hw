@@ -32,6 +32,13 @@ a {
   height: 0;
 }
 
+.less-link {
+  color: #b5b5b5;
+}
+
+.toggle {
+  font-weight: 600;
+}
 
 /*Layout*/
 
@@ -171,10 +178,6 @@ header {
   color: #306e90;
 }
 
-.sidebar-link {
-  font-weight: 600;
-}
-
 /*Button Strip*/
 
 
@@ -233,11 +236,4 @@ footer {
   font-weight: 800;
   color: #f9e42e;
   text-align: center;
-}
-
-
-/*Read More Link*/
-
-.morecontent span {
-    display: none;
 }
