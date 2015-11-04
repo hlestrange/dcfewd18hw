@@ -131,6 +131,7 @@ header {
 .show-more {
   font-weight: 600;
   float: right;
+  margin-top: 30px;
 }
 
 .show-more:hover {
@@ -232,4 +233,11 @@ footer {
   font-weight: 800;
   color: #f9e42e;
   text-align: center;
+}
+
+
+/*Read More Link*/
+
+.morecontent span {
+    display: none;
 }
