@@ -7,24 +7,23 @@ jQuery(document).ready(function(){
 
 
 // Show More & Show Less Toggle -------------------------------
-// function toggle-text() {
   $(".more-link").click(function() {
-    $(".more-link").hide();
-    $(".more-text").slideDown( "slow", function() {
-    });
-    $(".less-link").show();
+    var container = $(this).parent();
+    $(this).hide();
+    $(".more-text", container).slideDown( "slow", function() {
+      $(".less-link", container).show();});
   });
 
   $(".less-link").click(function() {
-    $(".less-link").hide();
-    $(".more-text").slideUp( "slow", function() {
+    var container = $(this).parent();
+    $(this).hide();
+    $(".more-text", container).slideUp( "slow", function() {
     });
-    $(".more-link").show();
+    $(".more-link", container).show();
   });
-// }
+
 
 $(".more-text").hide();
 $(".less-link").hide();
-// $(".more-link").click(toggle-text);
 
 });
