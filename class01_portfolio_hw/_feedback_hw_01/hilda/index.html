@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+    <!-- Missing Rockwell and Open Sans. -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Hilda LeStrange: Portfolio</title>
+
+<!--
+
+Nice use of FontAwesome! Your HTML is well structured as well. As the class progresses, I will provide you with additional resources to learn Sass and other modern tools. The only big change I would make to your HTML would be to restructure the items in your head.
+
+<title>Hilda LeStrange: Portfolio</title>
+<link href='https://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="main.css">
+
+Start with your meta elements (which we don't use here), followed by title, then your Google Fonts, then any library or grid CSS, then finally your styles. This will ensure that your styles will overwrite anything above it.
+
+Your CSS is really well done. Take a look at this article about BEM and SMACSS, two popular methodologies for naming and organizing your CSS.
+
+http://www.sitepoint.com/bem-smacss-advice-from-developers/
+
+Nick
+
+-->
+
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="nav-container"><!-- This div isn't really serving a purpose. You can add the class onto the header element. -->
+        <h1>Hilda LeStrange</h1>
+        <ul><!-- Nicely played, Hilda! -->
+          <li class="nav">
+            <a href="index.html" class="nav">Portfolio</a>
+          </li>
+          <li class="nav">
+            <a href="about.html" class="nav">About</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="section-portfolio"><!-- This could also use a section tag. -->
+      <img src="images/relaxr_deliverable.png" class="img-portfolio" alt="Relaxr Blog">
+      <div class="img-description">
+        <h2>Relaxr</h2>
+        <p>
+          Multi-column layout blog, landing page, and contact forms that render on mobile devices.
+        </p>
+      </div>
+    </div>
+
+    <div class="section-portfolio">
+      <img src="images/startup_matchmaker_deliverable.png" class="img-portfolio" alt="Startup Matchmaker">
+      <div class="img-description">
+        <h2>Startup Matchmaker</h2>
+        <p>
+          Responsive homepage for Startup Matchmaker.
+        </p>
+      </div>
+    </div>
+
+    <div class="section-portfolio">
+      <img src="images/citipix_deliverable.png" class="img-portfolio" alt="Citipix">
+      <div class="img-description">
+        <h2>Citipix</h2>
+        <p>
+          Web app prototype that allows users to store and quickly retrieve photos using keywords.
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>

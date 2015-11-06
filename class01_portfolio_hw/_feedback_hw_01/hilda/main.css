@@ -1,0 +1,104 @@
+/*Global==========================================*/
+
+body {
+  background: #fcf7e4;
+  color: #333333;
+  font-family: Open Sans, Helvetica Neue, sans-serif;
+  /*Add quotes or single quotes around font names. */
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav:hover {
+  color: #320a0a;
+}
+
+a:active {
+  color: #320a0a;
+}
+
+.nav {
+  font-family: Bitter, Rockwell, serif;
+  font-weight: bold;
+  color: #461010;
+  font-size: 1.25em;
+  list-style: none;
+  padding-right: 20px;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.nav-container {
+  padding: 10 0 10 0;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+header {
+  background: #661b1b;
+  overflow: auto;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-family: Bitter, Rockwell, serif;
+  color: #a64545;
+  font-size: 5em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: 0;
+}
+
+/*Portfolio==========================================*/
+
+h2 {
+  font-size: 2em;
+  font-family: Bitter, Rockwell, serif;
+  color: #661b1b;
+}
+
+.section-portfolio {
+  padding-bottom: 100px;
+  width: 80%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.img-portfolio {
+  border-radius: 20px;
+  border: 2em solid #ede6d0;
+  float: left;
+}
+
+.img-description {
+  width: 40%;
+  float: left;
+  margin-left: 1.5em;
+}
+
+/*About==========================================*/
+
+.img-about {
+  border-radius: 180px;
+  float: left;
+}
+
+.about-description {
+  width: 65%;
+  float: left;
+  margin-left: 1.5em;
+}
+
+.icon-about {
+  font-size: 2em;
+  padding-right: 20px;
+  text-align: center;
+  color: #a64545;
+}
+
+.icon-about:hover {
+  color: #cd5f5f;
+}
