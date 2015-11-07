@@ -8,7 +8,7 @@ jQuery(document).ready(function(){
 
 // Show More & Show Less Toggle -------------------------------
   $(".more-link").click(function() {
-    var container = $(this).parent();
+    var container = $(this).parent(); //"this" refers to the .more-link, "parent" means refer to the direct parent of the .more-link that was clicked
     $(this).hide();
     $(".more-text", container).slideDown( "slow", function() {
       $(".less-link", container).show();});
