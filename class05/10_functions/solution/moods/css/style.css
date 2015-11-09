@@ -1,11 +1,3 @@
-/*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
-*/
-
-
 /******************************************
 /* SETUP
 /*******************************************/
@@ -28,17 +20,7 @@ Developer @GA in NYC
 }
 
 .clear {
-	clear: both;
-}
-
-.alignright {
-	float: right;
-	padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-	float: left;
-	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  clear: both;
 }
 
 /******************************************
@@ -50,11 +32,7 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
-  background: url(../images/citipix_skyline.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: white;
 }
 
 
@@ -64,37 +42,38 @@ body {
 
 /* Center the container */
 .container {
-	width: 960px;
-	margin: auto;
+  max-width: 960px;
+  margin: auto;
   padding-top: 5em;
 }
 
 header {
-  background: rgba(0,0,0, .5);
+  background: url('../img/background.jpg');
   padding: 20px 0;
 }
 
 .title {
   text-align: center;
-  color: #fff;
-  font-size: 38px;
+  color: black;
+  font-size: 48px;
   font-weight: bold;
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Pacifico', helvetica, arial, sans-serif;
+  background-color: rgba(255,255,255,0.75);
 }
 
 .title p {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: normal
 }
 
-#city-type {
+#mood {
   color: #6b6b6c;
   font-size: 38px;
   background: #fff;
   border: 1px solid #111;
   padding: 0px 30px;
   display: inline-block;
-  width: 680px;
+  width: 90%;
   margin-right: 24px;
   font-family: helvetica, arial, sans-serif;
   height: 72px;
@@ -111,7 +90,7 @@ header {
   border: 1px solid #111;
   text-align: center;
   display: inline-block;
-  width: 250px;
+  width: 90%;
   height: 72px;
   line-height: 74px;
   vertical-align: middle;
@@ -123,26 +102,41 @@ header {
   background: #fff600;
 }
 
-.nyc {
-  background-image: url(../images/nyc.jpg)
+.moodring {
+  float: left;
+  margin: 0 30px 30px 30px;
 }
-.sf {
-  background-image: url(../images/sf.jpg)
+
+.moodring > div {
+  width: 300px;
+  height:300px;
+  border-radius: 150px;
+  overflow:hidden;
+  border:1px solid rgb(150,150,150);
 }
-.la {
-  background-image: url(../images/la.jpg)
-}
-.austin {
-  background-image: url(../images/austin.jpg)
-}
-.sydney {
-  background-image: url(../images/sydney.jpg)
+
+.moodform {
+  width: 400px;
+  margin:0;
+  padding:0;
+  display:inline-block;
+  float:right;
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* MOODS
 /*******************************************/
 
+.excited {
+  background: green;
+}
 
+.happy {
+  background: blue;
+}
+
+.bad {
+  background: black;
+}
 
 

@@ -2,10 +2,6 @@
 
 #FEWD - Arrays
 
-###Instructor Name
-
-Instructors current role.
-
 ---
 
 

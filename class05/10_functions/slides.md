@@ -2,9 +2,9 @@
 
 #FEWD - Functions
 
-###Instructor Name
+###Tor Johnson
 
-Instructors current role.
+
 
 ---
 
@@ -15,7 +15,7 @@ Instructors current role.
 *	Functions
 *	Anonymous Functions
 *	Revisiting jQuery
-*	Weather Application
+
 
 ---
 
@@ -49,15 +49,6 @@ Definition
 ---
 
 
-##Function Arguments
-
-
-
-![](../../img/unit_2/function_call_argument)
-
----
-
-
 ##Return Functions
 
 ---
@@ -69,25 +60,20 @@ Where do you put functions
 ---
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
+##Mood Ring
+
+---
+
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Cash Register
 
 ---
 
+##Useful Built-in Functions
 
-##Anonymous Functions
+* toFixed(digits)
+* parseFloat(number)
+* getElementById(id)
 
 
 ---
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Annonymous Cash Register
-
----
-
-
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Temp Converter
-
----
-
-
