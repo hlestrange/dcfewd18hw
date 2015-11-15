@@ -9,6 +9,10 @@ body {
   width: 20em;
   margin: auto;
 }
+#total {
+  float:right;
+  padding:0;
+}
 #ticket {
   background: white;
   margin: 0 1em;

@@ -7,34 +7,28 @@
 
   <title>Cash Register</title>
 
-    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+  <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 
 </head>
 
 <body>
 
-  <div id="register">
+<div id="register">
   <div id="ticket">
     <h1>Thank You!</h1>
-    <table>
-      <tbody id="entries">
-      </tbody>
-      <tfoot>
-        <tr>
-          <th>Total</th>
-          <th id="total">$0.00</th>
-        </tr>
-      </tfoot>
-    </table>
+    <div id="entries"></div>
+    <div id="total-container">
+      <strong>Total</strong>
+      <span id="total">$0.00</span>
+    </div>
   </div>
-  <form id="entry">
-    <input id="newEntry" autofocus placeholder="How Much?">
-  </form>
+  <div id="entry">
+    <input id="newEntry" autofocus autocomplete="off" placeholder="How Much?">
+    <button id="entryBtn">Submit</button>
+  </div>
 </div>
 
-  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
-
-  <script src="js/index.js"></script>
+<script src="js/index.js"></script>
 
 </body>
 
