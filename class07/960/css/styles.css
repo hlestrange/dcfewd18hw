@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box; /* Ensures that padding doesn't make boxes bigger */
+}
+
+.box {
+  background: pink;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+}
+
+.sm-box {
+  background: pink;
+  height: 35px;
+  width: 90px;
+  margin-right: 10px;
+  text-align: center;
+  float: right;
+}
+
+.container_12,
+.row {
+  margin-bottom: 20px;
+}
+
+.nav {
+  padding: 20px;
+}
+
+.row {
+  float: left;
+}
+
+.sidebar {
+  height: 490px;
+}

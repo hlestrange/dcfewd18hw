@@ -48,11 +48,12 @@ a {
   padding-bottom: 25px;
 }
 
+/*Using boostrap container class instead of this
 .wrapper {
   overflow: auto;
   width: 862px;
   margin: 0 auto;
-}
+}*/
 
 .single-row, .multi-row {
   width: 100%;
@@ -85,27 +86,20 @@ a {
 .card {
   background: white;
   float: left;
-  margin: 30px 10px 20px 10px;
-  padding: 40px 20px 20px 20px;
-  height: 220px;
-  width: 26%;
+  padding: 0px 20px 20px 20px;
+  border: solid 1px #dedede;
   border-radius: 5px;
-  box-shadow: 0px 2px 1px 0px #BBB9B9;
   position: relative;
-  z-index: 1;
+  width: 100%;
+  margin-bottom: 100px;
 }
 
 .card-title {
   text-align: center;
-  margin-bottom: 20px;
   letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
-
-/*.card-avatar-container {
-  width: 224px;
-  overflow: hidden;
-  margin: 0 auto;
-}*/
 
 .card-avatar {
   height: 90px;
@@ -116,20 +110,27 @@ a {
   border: solid 1px #d3d3d3;
 }
 
+.card-avatar-container {
+  width: 220px;
+  margin: 0 auto;
+}
+
 .card-bottom {
   background: #dadada;
   position: absolute;
-  bottom: 0;
+  bottom: -55px;
   left: 0;
   right: 0;
+  box-shadow: 0px 2px 1px 0px #BBB9B9;
   border-radius: 0 0 5px 5px;
-  padding: 15px;
+  border: solid 1px #dedede;
 }
 
 .card-bottom-text {
   font-size: 32px;
   text-align: center;
   font-family: 'Kreon', 'Rockwell', serif;
+  margin-top: 10px;
 }
 
 .fa-trophy {
@@ -137,19 +138,16 @@ a {
 }
 
 .card-medal {
-  margin-top: -60px;
-  margin-left: 90px;
+  margin: -22px auto;
   height: 43px;
   width: 43px;
   background: #CFCFCF;
   border-radius: 40px;
-  position: absolute;
-  z-index: 2;
   box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.40);
 }
 
 .card-medal-number {
-  margin-top: 12px;
+  padding-top: 7px;
   font-size: 21px;
   text-align: center;
   font-family: 'Kreon', 'Rockwell', serif;
