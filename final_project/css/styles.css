@@ -5,19 +5,24 @@ body {
   background: #eeeeee;
 }
 
+@font-face {
+  font-family: 'Geared Slab';
+  src: ulr('GearedSlab.ttf') format('truetype');
+}
+
 h1 {
-  font-size: 64px;
+  font-size: 80px;
   text-transform: uppercase;
-  font-family: 'Kreon', 'Rockwell', serif;
-  letter-spacing: 1px;
-  margin-bottom: 15px;
+  font-family: 'Geared Slab', 'Oswald', sans-serif;
+  letter-spacing: 3px;
+  margin-bottom: 23px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 36px;
   text-transform: uppercase;
-  font-family: 'Kreon', 'Rockwell', serif;
-  letter-spacing: 1px;
+  font-family: 'Geared Slab', 'Oswald', 'Rockwell', serif;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -29,6 +34,7 @@ h3 {
 
 a {
   color: #585858;
+  letter-spacing: 1px;
 }
 
 
@@ -38,13 +44,13 @@ a {
   background: grey;
   margin-bottom: 50px;
   text-align: center;
-  padding-top: 35px;
+  padding-top: 45px;
   padding-bottom: 25px;
 }
 
 .wrapper {
   overflow: auto;
-  width: 60%;
+  width: 862px;
   margin: 0 auto;
 }
 
@@ -79,7 +85,7 @@ a {
 .card {
   background: white;
   float: left;
-  margin: 0 10px 20px 10px;
+  margin: 30px 10px 20px 10px;
   padding: 40px 20px 20px 20px;
   height: 220px;
   width: 26%;
@@ -91,8 +97,15 @@ a {
 
 .card-title {
   text-align: center;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
 }
+
+/*.card-avatar-container {
+  width: 224px;
+  overflow: hidden;
+  margin: 0 auto;
+}*/
 
 .card-avatar {
   height: 90px;
@@ -100,7 +113,7 @@ a {
   border-radius: 90px;
   float: left;
   margin: 10px;
-  border: solid 1px #eeeeee;
+  border: solid 1px #d3d3d3;
 }
 
 .card-bottom {
@@ -124,8 +137,10 @@ a {
 }
 
 .card-medal {
-  height: 40px;
-  width: 40px;
+  margin-top: -60px;
+  margin-left: 90px;
+  height: 43px;
+  width: 43px;
   background: #CFCFCF;
   border-radius: 40px;
   position: absolute;
@@ -133,8 +148,9 @@ a {
   box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.40);
 }
 
-/*.card-wrapper {
-  overflow: visible;
-  width: 100%;
-  background: grey;
-}*/
+.card-medal-number {
+  margin-top: 12px;
+  font-size: 21px;
+  text-align: center;
+  font-family: 'Kreon', 'Rockwell', serif;
+}
