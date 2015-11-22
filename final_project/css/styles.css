@@ -15,7 +15,7 @@ h1 {
   text-transform: uppercase;
   font-family: 'Geared Slab', 'Oswald', sans-serif;
   letter-spacing: 3px;
-  margin-bottom: 23px;
+  margin: 0;
 }
 
 h2 {
@@ -45,7 +45,7 @@ a {
   margin-bottom: 50px;
   text-align: center;
   padding-top: 45px;
-  padding-bottom: 25px;
+  padding-bottom: 13px;
 }
 
 /*Using boostrap container class instead of this
@@ -86,7 +86,7 @@ a {
 .card {
   background: white;
   float: left;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 20px 35px 20px;
   border: solid 1px #dedede;
   border-radius: 5px;
   position: relative;
@@ -151,4 +151,37 @@ a {
   font-size: 21px;
   text-align: center;
   font-family: 'Kreon', 'Rockwell', serif;
+}
+
+
+/*Media Queries================================*/
+
+@media (max-width: 990px) {
+  .card-avatar-container {
+    width: 105px;
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .card-avatar {
+    height: 150px;
+    width: 150px;
+  }
+  .card-avatar-container {
+    width: 340px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 440px) {
+  .card-avatar {
+    height: 90px;
+    width: 90px;
+  }
+  .card-avatar-container {
+    width: 220px;
+    margin: 0 auto;
+  }
 }
