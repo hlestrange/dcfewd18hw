@@ -42,18 +42,10 @@ a {
 
 .header {
   background: grey;
-  margin-bottom: 50px;
   text-align: center;
   padding-top: 45px;
   padding-bottom: 13px;
 }
-
-/*Using boostrap container class instead of this
-.wrapper {
-  overflow: auto;
-  width: 862px;
-  margin: 0 auto;
-}*/
 
 .single-row, .multi-row {
   width: 100%;
@@ -61,6 +53,15 @@ a {
   overflow: hidden;
 }
 
+.colored-section-1 {
+  background: blue;
+  padding: 35px 0 45px 0;
+}
+
+.colored-section-2 {
+  background: purple;
+  padding: 35px 0 45px 0;
+}
 
 /*Components=============================================*/
 
@@ -80,14 +81,13 @@ a {
 /*Cards*/
 .section-title {
   text-align: center;
-  margin: 30px 0 30px 0;
+  margin: 20px 0 50px 0;
 }
 
 .card {
   background: white;
   float: left;
   padding: 0px 20px 35px 20px;
-  border: solid 1px #dedede;
   border-radius: 5px;
   position: relative;
   width: 100%;
@@ -110,8 +110,18 @@ a {
   border: solid 1px #d3d3d3;
 }
 
+.card-avatar-sm {
+  height: 70px;
+  width: 70px;
+}
+
 .card-avatar-container {
   width: 220px;
+  margin: 0 auto;
+}
+
+.card-avatar-container-sm {
+  width: 180px;
   margin: 0 auto;
 }
 
