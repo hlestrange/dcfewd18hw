@@ -33,7 +33,7 @@ h3 {
 }
 
 a {
-  color: #585858;
+  /*color: #585858;*/
   letter-spacing: 1px;
 }
 
@@ -41,7 +41,7 @@ a {
 /*Layout=================================================*/
 
 .header {
-  background: grey;
+  background: #FF9900;
   text-align: center;
   padding-top: 45px;
   padding-bottom: 13px;
@@ -54,12 +54,12 @@ a {
 }
 
 .colored-section-1 {
-  background: blue;
+  background: #ffedce;
   padding: 35px 0 45px 0;
 }
 
 .colored-section-2 {
-  background: purple;
+  background: #f2dbb5;
   padding: 35px 0 45px 0;
 }
 
@@ -72,6 +72,7 @@ a {
   display: inline block;
   padding: 10px;
   font-size: 20px;
+  color: black;
 }
 
 .nav li {
@@ -126,14 +127,28 @@ a {
 }
 
 .card-bottom {
-  background: #dadada;
   position: absolute;
   bottom: -55px;
   left: 0;
   right: 0;
-  box-shadow: 0px 2px 1px 0px #BBB9B9;
   border-radius: 0 0 5px 5px;
-  border: solid 1px #dedede;
+  background: #d3ba94;
+  box-shadow: 0 2px 1px 0 #af956e;
+}
+
+.card-bright {
+  background: #ECA214;
+  box-shadow: 0 2px 1px 0 #D28C07;
+}
+
+.card-dull {
+  background: #C38206;
+  box-shadow: 0 2px 1px 0 #A06B07;
+}
+
+.card-dullest {
+  background: #9F6901;
+  box-shadow: 0 2px 1px 0 #704A02;
 }
 
 .card-bottom-text {
@@ -151,9 +166,7 @@ a {
   margin: -22px auto;
   height: 43px;
   width: 43px;
-  background: #CFCFCF;
   border-radius: 40px;
-  box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.40);
 }
 
 .card-medal-number {
@@ -166,9 +179,13 @@ a {
 
 /*Media Queries================================*/
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
   .card-avatar-container {
     width: 105px;
+    margin: 0 auto;
+  }
+  .card-avatar-container-sm {
+    width: 90px;
     margin: 0 auto;
   }
 }
