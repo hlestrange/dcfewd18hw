@@ -1,3 +1,205 @@
+/*Base Styles -----------------------------------------------------*/
+
 body {
-  background: blue;
+  color: #5D5D5D;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1, h3, h4 {
+  font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.fa {
+  padding-right: 7px;
+}
+
+.name {
+  font-size: 5em;
+  color: #7ADDD7;
+  text-transform: uppercase;
+  letter-spacing: 5;
+  margin-top: 0;
+}
+
+
+/*Main Header -----------------------------------------------------*/
+
+.header {
+  height: 770px;
+  position: relative;
+  background:
+  linear-gradient(135deg, #535455 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #535455 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #535455 25%, transparent 25%),
+  linear-gradient(45deg, #535455 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #58595A;
+}
+
+.header-content {
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -70px;
+}
+
+.sub-h1 {
+  font-size: 1.85em;
+  color: #dedede;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.menu {
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 4%;
+  width: 100%;
+  color: white;
+}
+
+.menu li a {
+  color: white;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+
+/*Subheader -----------------------------------------------------*/
+
+.sub-header{
+  height: 200px;
+  background: #7ADDD7;
+  text-align: center;
+}
+
+.sub-header-title {
+  font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
+  font-size: 3em;
+  margin-top: 0;
+  padding-top: 75px;
+}
+
+/*Projects -----------------------------------------------------*/
+
+.project-text {
+  float: left;
+  margin-left: 20px;
+  width: 33%;
+}
+
+.color-strip {
+  background: #7ADDD7;
+  height: 7px;
+  width: 75px;
+  margin: 15px 0;
+}
+
+.project {
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0;
+  overflow: hidden;
+  border-bottom: 1px solid #dedede;
+}
+
+.project-img {
+  width: 62%;
+  float: left;
+}
+
+.btn-primary {
+  background: #7ADDD7;
+  box-shadow: 0px 3px 1px 0px #7CC9C4;
+  border-radius: 4px;
+  border: none;
+  color: #5D5D5D;
+  font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+.btn-primary:hover {
+  background: #30B5AD;
+}
+
+/*Footer -----------------------------------------------------*/
+
+.progress-bars {
+  width: 60%;
+  float: left;
+  margin-right: 45px;
+}
+
+.progress {
+  height: 27px;
+}
+
+.progress-bar-info {
+  background: #7ADDD7;
+  background-image: linear-gradient(45deg,rgba(255,255,255,.25) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.25) 50%,rgba(255,255,255,.25) 75%,transparent 75%,transparent);
+  background-size: 40px 40px;
+  color: #444444;
+  text-align: left;
+  padding-left: 7px;
+  padding-top: 3px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.avatar {
+  float: left;
+  border: solid 9px #7ADDD7;
+  border-radius: 90px;
+}
+
+.about {
+  width: 70%;
+  margin-left: 30px;
+  float: left;
+}
+
+.tools {
+  float: left;
+}
+
+footer {
+  background: #444444;
+  color: white;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.footer-content {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 70%;
+}
+
+footer h3 {
+  margin-bottom: 20px;
+}
+
+footer li {
+  margin-top: 20px;
+  font-size: 18px
+}
+
+.tool-icon {
+  font-size: 24px;
+  color: #7ADDD7;
 }
