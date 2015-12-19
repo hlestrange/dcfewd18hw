@@ -33,6 +33,9 @@ ul {
 .header {
   height: 770px;
   position: relative;
+}
+
+.pattern-bkgd {
   background:
   linear-gradient(135deg, #535455 25%, transparent 25%) -50px 0,
   linear-gradient(225deg, #535455 25%, transparent 25%) -50px 0,
@@ -202,4 +205,26 @@ footer li {
 .tool-icon {
   font-size: 24px;
   color: #7ADDD7;
+}
+
+/*Contact -----------------------------------------------------*/
+
+.contact {
+  height: 300px;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.contact li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.contact a {
+  color: white;
+}
+
+.contact-content {
+  width: 30%;
+  margin: 0 auto;
 }
