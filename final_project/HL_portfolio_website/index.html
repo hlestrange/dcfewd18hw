@@ -16,13 +16,14 @@
     </div>
     <div class="menu">
       <ul>
-        <li><a href="#">View My Work</a></li>
-        <li><a href="#">Get to Know Me</a></li>
+        <li><a href="#" id="ViewMyWork">My Work</a></li>
+        <i class="fa fa-angle-double-down fa-2x"></i>
+        <li><a href="#" id="ViewBio">About Me</a></li>
       </ul>
     </div>
   </section>
 
-  <section class="sub-header">
+  <section class="sub-header" id="MyWork">
     <h2 class="sub-header-title">My Work</h2>
   </section>
 
@@ -57,28 +58,32 @@
   </section>
 
   <footer>
-    <div class="footer-content">
+    <div class="footer-content" id="bio">
       <img src="images/hilda.png" alt="" class="avatar">
       <div class="about">
         <h3>About Me</h3>
         <p>I’m a UI/UX designer with a passion for creating web applications and software. On a daily basis, I work as part of a team to craft delightful and user-friendly experiences from the beginning to end. I’m an avid learner and lover of experimentation and psychology, meaning I love to fully investigate the business need, conduct usability research, learn the newest creative software, and get my hands dirty with a little front-end coding. I'm most satisfied when a product simultaneously looks great, solves the client's need, and makes the user happy.</p>
         <div class="progress-bars">
           <h3>Skills</h3>
+
           <div class="progress">
-            <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+            <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+              Wireframing
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
               Visual Design
             </div>
           </div>
+
           <div class="progress">
             <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
               Usability Testing
             </div>
           </div>
-          <div class="progress">
-            <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-              Prototyping
-            </div>
-          </div>
+
           <div class="progress">
             <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
               Front End Development
@@ -91,7 +96,7 @@
             <li><i class="fa fa-diamond tool-icon"></i>Sketch 3</li>
             <li><i class="fa fa-pencil-square-o tool-icon"></i>Pencil &amp; Paper</li>
             <li><i class="fa fa-code tool-icon"></i>HMTL &amp; CSS</li>
-            <li><i class="fa fa-paint-brush tool-icon"></i>Adobe Creative Suite</li>
+            <li><i class="fa fa-cloud tool-icon"></i>Adobe Creative Cloud</li>
           </ul>
         </div>
       </div>
@@ -100,13 +105,31 @@
 
   <div class="contact pattern-bkgd ">
     <div class="contact-content">
-      <ul>
-        <li><a href="tel:1-702-526-6652"><i class="fa fa-mobile-phone fa-4x"></i></a></li>
-        <li><a href="mailto:lestrangehr@gmail.com"><i class="fa fa-envelope fa-3x"></i></a></li>
-        <li><a href="https://twitter.com/hildalestrange"><i class="fa fa-twitter fa-3x"></i></a></li>
-      </ul>
+        <div class="contact-item">
+          <a href="tel:1-702-526-6652">
+            <span><i class="fa fa-mobile-phone fa-5x"></i></span><br>
+            <span>702-526-6652</span>
+          </a>
+        </div>
+        <div class="contact-item">
+          <a href="mailto:lestrangehr@gmail.com">
+            <span><i class="fa fa-envelope fa-4x"></i></span><br>
+            <span>lestrangehr@gmail</span>
+          </a>
+        </div>
+        <div class="contact-item">
+          <a href="https://twitter.com/thehildabeast">
+            <span><i class="fa fa-twitter fa-4x"></i></span><br>
+            <span>@thehildabeast</span>
+          </a>
+        </div>
+
     </div>
   </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="index.js"></script>
 
 </body>
 </html>
