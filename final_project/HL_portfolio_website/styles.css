@@ -84,9 +84,9 @@ ul {
 /*Subheader -----------------------------------------------------*/
 
 .sub-header{
-  height: 200px;
   background: #7ADDD7;
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .sub-header-title {
@@ -94,6 +94,11 @@ ul {
   font-size: 3em;
   margin-top: 0;
   padding-top: 75px;
+}
+
+.sub-header p {
+  width: 45%;
+  margin: 0 auto;
 }
 
 /*Projects -----------------------------------------------------*/
@@ -199,7 +204,7 @@ footer h3 {
 
 footer li {
   margin-top: 20px;
-  font-size: 18px
+  font-size: 18px;
 }
 
 .tool-icon {
@@ -210,21 +215,30 @@ footer li {
 /*Contact -----------------------------------------------------*/
 
 .contact {
-  height: 300px;
-  padding: 100px 20px;
+  padding: 70px 20px;
   text-align: center;
 }
 
 .contact li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 60px;
 }
 
 .contact a {
   color: white;
 }
 
+.contact a:hover {
+  color: #7ADDD7;
+}
+
 .contact-content {
-  width: 30%;
+  width: 90%;
   margin: 0 auto;
+}
+
+/*Navbar -----------------------------------------------------*/
+
+.navbar-inverse {
+  font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
 }
