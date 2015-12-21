@@ -258,3 +258,8 @@ footer li {
 .navbar-inverse {
   font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
 }
+
+.navbar-brand {
+  font-weight: 700;
+  color: #7ADDD7;
+}
