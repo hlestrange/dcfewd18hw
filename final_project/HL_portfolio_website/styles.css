@@ -3,6 +3,7 @@
 body {
   color: #5D5D5D;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background: #E4FFFD;
 }
 
 h1, h3, h4, h5 {
@@ -96,8 +97,7 @@ a:hover {
   background: #7ADDD7;
   text-align: center;
   padding-bottom: 60px;
-  padding-top: 35px;
-  margin-bottom: 6%;
+  margin-bottom: 4%;
 }
 
 .sub-header-title {
@@ -130,7 +130,7 @@ a:hover {
 .project {
   width: 90%;
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 50px 0;
   overflow: hidden;
   border-bottom: 1px solid #dedede;
 }
@@ -205,7 +205,7 @@ footer {
   color: white;
   overflow: hidden;
   padding: 100px 0;
-  margin-top: 6%;
+  margin-top: 4%;
 }
 
 .footer-content {
@@ -273,11 +273,12 @@ footer li {
 
 /*Info Band --------------------------------------------------*/
 .info-band {
-  background: #CEFBF8;
+  background: white;
   text-align: center;
   font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
   font-weight: 700;
   color: #60C4BE;
+  margin-top: -85px;
 }
 
 .info-band li {
@@ -296,6 +297,7 @@ footer li {
 }
 
 .tile-img {
+  border-bottom: 1px solid #dedede;
   border-radius: 10px 10px 0 0;
   width: 100%;
 }
@@ -305,6 +307,20 @@ footer li {
   font-size: .95em;
 }
 
+.tile-button {
+  background: #C6F3F0;
+  color: #2F9891;
+  font-weight: 700;
+  display: block;
+  border-top: 1px solid #7ADDD7;
+  padding: 14px 0;
+  text-align: center;
+}
+
+.tile a:hover {
+  color: #19706B;
+  background: #7ADDD7;
+}
 
 /*Media Queries --------------------------------------------------*/
 @media (max-width: 500px) {
