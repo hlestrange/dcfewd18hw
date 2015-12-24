@@ -5,9 +5,13 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
-h1, h3, h4 {
+h1, h3, h4, h5 {
   font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
   font-weight: 700;
+}
+
+h4 {
+  font-size: 1.15em;
 }
 
 ul {
@@ -93,6 +97,7 @@ a:hover {
   text-align: center;
   padding-bottom: 60px;
   padding-top: 35px;
+  margin-bottom: 6%;
 }
 
 .sub-header-title {
@@ -200,6 +205,7 @@ footer {
   color: white;
   overflow: hidden;
   padding: 100px 0;
+  margin-top: 6%;
 }
 
 .footer-content {
@@ -265,7 +271,7 @@ footer li {
   color: #7ADDD7;
 }
 
-/*Info Band -----------------------------------------------------*/
+/*Info Band --------------------------------------------------*/
 .info-band {
   background: #CEFBF8;
   text-align: center;
@@ -277,4 +283,32 @@ footer li {
 .info-band li {
   display: inline-block;
   padding: 20px;
+}
+
+/*Tiles --------------------------------------------------*/
+
+.tile {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #7ADDD7;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.tile-img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.tile-text {
+  margin: 20px;
+  font-size: .95em;
+}
+
+
+/*Media Queries --------------------------------------------------*/
+@media (max-width: 500px) {
+  .col-xxs-12 {
+    width: 100%;
+  }
 }
