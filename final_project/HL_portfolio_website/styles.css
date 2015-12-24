@@ -92,6 +92,7 @@ a:hover {
   background: #7ADDD7;
   text-align: center;
   padding-bottom: 60px;
+  padding-top: 35px;
 }
 
 .sub-header-title {
@@ -111,7 +112,7 @@ a:hover {
 .project-text {
   float: left;
   margin-left: 20px;
-  width: 33%;
+  width: 25%;
 }
 
 .color-strip {
@@ -122,7 +123,7 @@ a:hover {
 }
 
 .project {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding: 80px 0;
   overflow: hidden;
@@ -130,7 +131,7 @@ a:hover {
 }
 
 .project-img {
-  width: 62%;
+  width: 70%;
   float: left;
 }
 
@@ -262,4 +263,18 @@ footer li {
 .navbar-brand {
   font-weight: 700;
   color: #7ADDD7;
+}
+
+/*Info Band -----------------------------------------------------*/
+.info-band {
+  background: #CEFBF8;
+  text-align: center;
+  font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
+  font-weight: 700;
+  color: #60C4BE;
+}
+
+.info-band li {
+  display: inline-block;
+  padding: 20px;
 }
